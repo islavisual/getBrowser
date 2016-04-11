@@ -1,9 +1,9 @@
 # getBrowser
-Plugin to get the browser information like in oldies versions of jQuery
+Plugin to get the browser information like in oldies versions of jQuery. Identifies all Internet Explorer versions, Chrome, Firefox and Opera.
 
 Install
 =======
-Your install is very easy. Only you must insert the following source code files.
+Your install is very easy. Only you must insert the following source code file.
 ```html
 <script src="js/getBrowser.js"></script>
 ```
