@@ -2,7 +2,7 @@
   * @version: 1.00
   * @author: Pablo E. Fernández (islavisual@gmail.com).
   * Copyright 2016 Islavisual. 
-  * Licensed under MIT (https://github.com/islavisual/rehabilitateBrowser/blob/master/LICENSE). 
+  * Licensed under MIT (https://github.com/islavisual/getBrowser/blob/master/LICENSE). 
   * Last update: 31/03/2016
   **/
  (function ($) {
