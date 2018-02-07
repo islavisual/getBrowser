@@ -1,9 +1,9 @@
 /** jQuery Get Browser Plugin
-  * @version: 1.00
+  * @version: 1.01
   * @author: Pablo E. Fernández (islavisual@gmail.com).
-  * Copyright 2016 Islavisual. 
+  * Copyright 2016-2018 Islavisual. 
   * Licensed under MIT (https://github.com/islavisual/getBrowser/blob/master/LICENSE). 
-  * Last update: 31/03/2016
+  * Last update: 07/02/2018
   **/
  (function ($) {
 	 $.extend({
