@@ -26,7 +26,7 @@
 			var firefox = /firefox/.test(navigator.userAgent.toLowerCase()) && !/webkit    /.test(navigator.userAgent.toLowerCase());
 			var webkit  = /webkit/.test(navigator.userAgent.toLowerCase());
 			var opera   = /opera/.test(navigator.userAgent.toLowerCase());
-			var msie    = /msie/.test(navigator.userAgent.toLowerCase())||/msie (\d+\.\d+);/.test(navigator.userAgent.toLowerCase())||/trident.*rv[ :]*(\d+\.\d+)/.test(navigator.userAgent.toLowerCase());
+			var msie    = /edge/.test(navigator.userAgent.toLowerCase())||/msie/.test(navigator.userAgent.toLowerCase())||/msie (\d+\.\d+);/.test(navigator.userAgent.toLowerCase())||/trident.*rv[ :]*(\d+\.\d+)/.test(navigator.userAgent.toLowerCase());
 			var prefix  = msie?"":(webkit?'-webkit-':(firefox?'-moz-':''));
 			
 			return {name: M[0], version: M[1], firefox: firefox, opera: opera, msie: msie, chrome: webkit, prefix: prefix};
